@@ -1,13 +1,13 @@
 # Interfacer
 Tool to override the default interface to which a binary connects in linux.
 
-The tool hooks socket() and setsockopt() and changes the bound interface to the one selected by the user.
+The tool hooks `socket()` and `setsockopt()` and changes the bound interface to the one selected by the user.
 
 # How to compile
-gcc -shared -o interfacer.so interfacer.c -ldl -fPIC
+`gcc -shared -o interfacer.so interfacer.c -ldl -fPIC`
 
 # How to use
-LD_PRELOAD=./interfacer.so INTERFACE_NAME={interface_name} {command} {arguments}
+`LD_PRELOAD=./interfacer.so INTERFACE_NAME={interface_name} {command} {arguments}`
 
 # Tests
 I tested it on an Ubuntu VM which had 4 interfaces:
