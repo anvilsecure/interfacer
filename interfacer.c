@@ -1,9 +1,9 @@
 /*
  * Project Name: Interfacer
- * Author: Alex Popovici
+ * Author: Alex Popovici @ Anvil Secure
  * Date: October 2024
  * 
- * This file is part of the interfacer project.
+ * This file is part of the Interfacer project.
  * 
  * Interfacer is licensed under the BSD 3-Clause License.
  * You may obtain a copy of the license at:
