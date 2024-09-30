@@ -1,3 +1,20 @@
+/*
+ * Project Name: Interfacer
+ * Author: Alex Popovici
+ * Date: October 2024
+ * 
+ * This file is part of the interfacer project.
+ * 
+ * Interfacer is licensed under the BSD 3-Clause License.
+ * You may obtain a copy of the license at:
+ * 
+ *     https://opensource.org/licenses/BSD-3-Clause
+ * 
+ * Alternatively, the license can be found in the LICENSE file
+ * in the root directory of this project.
+ * 
+ */
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
